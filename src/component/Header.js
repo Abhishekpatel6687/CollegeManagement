@@ -24,15 +24,13 @@ function Header() {
   }
 
   return (
-    <div class="main">
-      <div class="nav">
+    <div className="main">
+      <div className="nav">
         <img src="/image/bbd-logo-3.png" alt="" />
-        <div class="nav-part2">
-          {
-            nav.map((nav) => (
+        <div className="nav-part2">
+          {nav.map((nav) => (
             <h4>{nav.name}</h4>
-          ))
-          }
+          ))}
 
           <button>Sign In</button>
 
@@ -44,22 +42,22 @@ function Header() {
             {isShowMenus && (
               <div className="inerIcon">
                 {nav.map((item, index) => {
-                  return <div> {item.name}</div>;
+                  return <div key={item.id}> {item.name}</div>;
                 })}
               </div>
             )}
           </div>
         </div>
       </div>
-      <div class="contant">
-        <div class="left">
+      <div className="contant">
+        <div className="left">
           <h1>
             {state.heading} <span>Admission 2023</span>
           </h1>
           <p>{state.paragraph}</p>
           <button>React More</button>
         </div>
-        <div class="right">
+        <div className="right">
           <img src="/image/image3.jpg" alt="img" />
         </div>
       </div>

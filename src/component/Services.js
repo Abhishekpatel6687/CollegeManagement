@@ -3,13 +3,13 @@ import { AiFillBank, AiOutlineUsergroupAdd } from "react-icons/ai";
 import { FaUserGraduate, FaGlobe, FaBriefcase } from "react-icons/fa";
 const Services = () => {
   return (
-    <div class="container">
-      <div class="navbar">
+    <div className="container">
+      <div className="navbar">
         <p></p>
         <h2>Vision of Genesis & Founder</h2>
         <p></p>
       </div>
-      <div class="navbar-part2">
+      <div className="navbar-part2">
         <div className="founder">
           <div className="founder-list">
             <img src="/image/babuji-120x120.jpg" alt="" />
