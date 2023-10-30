@@ -36,12 +36,19 @@ body{
  font-weight: 600;
 }
 .nav button{
-font-size: 1vw;
-padding: 0.7vw 1.4vw;
+  height: 3.2vw;
+  width: 6.6vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+font-size: 1.4vw;
+
 background-color: #805695;
 color: white;
 border-radius: 5px;
 font-weight: 600;
+border: none;
+
 }
 
 .nav i{
@@ -301,9 +308,13 @@ body{
   display: none;
 }
 .nav button{
- height: 5vh;
+ height: 6vw;
  width: 15vw;
- font-size: 2vw;
+ font-size: 2.8vw;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: none;
 
 }
 .nav i{
@@ -432,7 +443,7 @@ width: 90%;
   flex-direction: column;
   margin-top: 4.5vw;
   /* background-color: red; */
-
+  
  }
 .founder-list{
     height: 100%;
