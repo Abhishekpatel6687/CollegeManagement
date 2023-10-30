@@ -36,18 +36,13 @@ body{
  font-weight: 600;
 }
 .nav button{
-  height: 3.2vw;
-  width: 6.6vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-font-size: 1.4vw;
-
+font-size: 1vw;
+padding: 0.7vw 1.4vw;
 background-color: #805695;
 color: white;
 border-radius: 5px;
 font-weight: 600;
-border: none;
+/* border: none; */
 
 }
 
@@ -287,12 +282,12 @@ body{
   width: 100%;
 }
 .nav{
-  height:80px;
+  height:15vh;
   border-bottom: 2px solid #dadada;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 3.4vw ;
+  padding: 0 2.2vw ;
 }
 .nav img{
   height: 60px;
@@ -303,18 +298,18 @@ body{
   display: none;
 }
 .nav button{
- height: 6.8vw;
+ height: 5vw;
  width: 15vw;
- font-size: 2.8vw;
- display: flex;
+ font-size: 2vw;
+ /* display: flex;
  align-items: center;
  justify-content: center;
- border: none;
+ border: none; */
 
 }
 .nav i{
 display: block;
-font-size: 5.6vw;
+font-size: 5vw;
 
 }
 .icon{
