@@ -20,8 +20,15 @@ const Footer = () => {
         <div className="logo">
           <img src="/image/logo-removebg-preview.png" alt="logo_footer" />
         </div>
-        <div className="icons">
-          
+        <div className="courses">
+        <ul>
+            <li><FaLinkedinIn/></li>
+            <li><FaInstagram /></li>
+            <li><FaTwitter /></li>
+            <li><FaFacebookF /></li>
+            <li><FaTelegram  /></li>
+            <li><FaYoutube   /></li>
+          </ul>
         </div>
       </div>
       <div className="section_2">
@@ -35,16 +42,6 @@ const Footer = () => {
                 <li><MdOutlineMailOutline/>info@bbdu.org</li>        
                 <li><FaGlobeAfrica/>https://bbdu.ac.in</li>
             </ul>
-        </div>
-        <div className="courses">
-        <ul>
-            <li><FaLinkedinIn/></li>
-            <li><FaInstagram /></li>
-            <li><FaTwitter /></li>
-            <li><FaFacebookF /></li>
-            <li><FaTelegram  /></li>
-            <li><FaYoutube   /></li>
-          </ul>
         </div>
       </div>
     </div>

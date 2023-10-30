@@ -6,7 +6,7 @@ const Services = () => {
     <div class="container">
       <div class="navbar">
         <p></p>
-        <h1>Vision of Genesis & Founder</h1>
+        <h2>Vision of Genesis & Founder</h2>
         <p></p>
       </div>
       <div class="navbar-part2">
@@ -59,7 +59,6 @@ const Services = () => {
           </div>
           <div className="icons">
             <h1>
-              {" "}
               <AiFillBank />
             </h1>
             <h3>1000+</h3>

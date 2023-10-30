@@ -15,12 +15,12 @@ body{
   width: 100%;
 }
 .nav{
-  height: 15vh;
+  height: 90px;
   border-bottom: 2px solid #dadada;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 2.2vw ;
+  padding: 0 3vw ;
 }
 .nav-part2{
   display: flex;
@@ -28,31 +28,43 @@ body{
   gap: 1.8vw;
 }
 .nav img{
-  height: 6.5vw;
-  width: 20vw;
+  height: 6.8vw;
+  width: 16.6vw;
 }
 .nav h4{
- font-size:1.6vw;
- font-weight: 600;
+ font-size:1.8vw;
+ font-weight: 400;
+ cursor: pointer;
+ /* transition: all 0.5s; */
+}
+.nav h4:hover{
+  color: #a642db;
 }
 .nav button{
-font-size: 1vw;
-padding: 0.7vw 1.4vw;
+  height: 3vw;
+  width: 6vw;
+font-size: 1.4vw;
+/* padding: 0.7vw 1.4vw; */
 background-color: #805695;
 color: white;
 border-radius: 5px;
 font-weight: 600;
-/* border: none; */
-
+border: none;
+cursor: pointer;
+transition: all 0.5s;
+}
+.nav button:hover{
+  background-color:#37474f;
 }
 
 .nav i{
-font-size: 1.6vw;
+font-size: 1.8vw;
   font-weight: 800;
   display: none;
 }
 .contant{
   width: 100%;
+  padding-bottom: 5.8vw;
   display: flex;
   background-color:rgb(235, 231, 238);
 }
@@ -60,7 +72,7 @@ font-size: 1.6vw;
   height: 100%;
   width: 50%;
   /* background: blue; */
-  padding: 5vw 4vw 0 4vw;
+  margin: 80px 4vw 0 4vw;
 }
 .right{
   height: 100%;
@@ -69,10 +81,10 @@ font-size: 1.6vw;
 }
 .left h1{
   font-size: 3vw;
-  line-height: 3.2vw;
+  line-height: 3vw;
 }
 .left h1 span{
-  color: #D590F9;
+  color: #ce73ff;
 }
 .left p{
   font-size: 1.2vw;
@@ -82,13 +94,20 @@ font-size: 1.6vw;
   margin-bottom: 3vw;
 }
 .contant button{
-font-size: 1.5vw;
-padding: 1.1vw 2.1vw;
+font-size: 1.6vw;
+height: 4.4vw;
+width: 12vw;
+/* padding: 1.1vw 2.1vw; */
 background-color: #37474F;
 color: white;
 border: none;
 border-radius: 5px;
-font-weight: 700;
+font-weight: 600;
+transition: ease-in-out 0.5s;
+}
+.contant button:hover{
+  background-color: #9e6bb8;
+  color: black;
 }
 .right img{
   margin-top: 8vw;
@@ -106,7 +125,7 @@ width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 3vw;
+  padding-top: 2vw;
   font-size: 2vw;
   color: #3d035d;
  }
@@ -115,9 +134,8 @@ width: 90%;
   width: 10vw;
   background: red;
   margin: 2vw;
-
-
  }
+
 .founder{
   display: flex;
   align-items: center;
@@ -135,8 +153,8 @@ width: 90%;
 /* background-color: green;  */
 }
 .founder-list img{
-  height: 30vh;
-  width: 20vw;
+  height: 15vw;
+  width: 15vw;
 
 }
 
@@ -155,7 +173,7 @@ width: 90%;
 .services{
   /* height: 40vh; */
   width:auto;
-  margin: 2vw 0;
+  margin-top: 2vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -168,10 +186,10 @@ width: 90%;
   justify-content: space-around;
   /* background-color: red; */
   background-image: url("../public/image/2018-02-07-3.jpg");
-color: white;
+  color: white;
 }
 .icons{
-  font-size: 2vw;
+  font-size: 1.8vw;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -179,7 +197,7 @@ color: white;
 /* background-color: #805695; */
 }
 .icons h1{
-font-size: 5vw;
+font-size: 4.8vw;
 color: white;
 }
 .icons p{
@@ -199,8 +217,8 @@ font-weight: 400;
 
   height: 100%;
   width: 100%;
-  /* background: #0E1F2F; */
   background: #d7dee4;
+  padding: 2vw 0;
 }
 .compus-data{
   display: flex;
@@ -210,9 +228,8 @@ font-weight: 400;
   padding: 2vw;
 }
 .compus-data h1{
-color:#2B3745;
-
- font-size: 3.5vw; 
+color:#013269;
+ font-size: 3.2vw; 
  }
  .compus-list{
   display: flex;
@@ -221,8 +238,10 @@ color:#2B3745;
   flex-wrap: wrap;
  }
 .list-item{
-  height: 450px;
-  width: 346px;
+  height: 42vw;
+  width: 32.3vw;
+  /* height: 450px; */
+  /* width: 346px;  */
   margin: 10px;
   display: flex;
   align-items: center;
@@ -232,10 +251,22 @@ color:#2B3745;
 }
 .list-item h1{
   color: #3d035d;
+  font-size: 2.4vw;
+  margin-top: 1vw;
 }
 
 .list-item p{
-  margin: 1vw;
+  margin: 0.8vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 1.4vw;
+}
+
+.list-item img{
+  height: 48vh;
+  width: 32.1vw;
 }
 
 /* footer section */
@@ -243,12 +274,17 @@ color:#2B3745;
 height: 100%;
 width: 100%;
 background-color:#5e6773;
+padding: 1vw 0;
 }
 .section_1{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding:2vw 4vw;
+}
+.logo img{
+  height: 8.8vw;
+  width: 30vw;
 }
 .courses ul{
  display: flex;
@@ -257,11 +293,31 @@ background-color:#5e6773;
  font-size: 30px;
  padding: 0 7vw 0 0 ;
 }
+.courses ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4vw;
+  height: 4.2vw;
+  width: 4.2vw;
+  border: 2px solid #0a0420;
+  border-radius: 100%;
+  background-color:rgb(23, 5, 104);
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+  color: white;
+  
+}
+.courses ul li:hover{
+  color: darkblue;
+  transform: scale(1.2);
+  background-color: red;
+}
 .section_2{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 0 2vw 7vw;
+  padding: 0 0 2vw 4.8vw;
   color: rgb(255, 255, 255);
 }
 .icon-list ul{
