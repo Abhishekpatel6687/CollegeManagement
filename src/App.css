@@ -287,18 +287,13 @@ body{
   width: 100%;
 }
 .nav{
-  height: 15vh;
+  height:80px;
   border-bottom: 2px solid #dadada;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 2.2vw ;
+  padding: 0 3.4vw ;
 }
-/* .nav-part2{
-  display: flex;
-  align-items: center;
-  gap: 1.8vw;
-} */
 .nav img{
   height: 60px;
   width: 200px;
@@ -308,7 +303,7 @@ body{
   display: none;
 }
 .nav button{
- height: 6.4vw;
+ height: 6.8vw;
  width: 15vw;
  font-size: 2.8vw;
  display: flex;
@@ -319,7 +314,7 @@ body{
 }
 .nav i{
 display: block;
-font-size: 5vw;
+font-size: 5.6vw;
 
 }
 .icon{
