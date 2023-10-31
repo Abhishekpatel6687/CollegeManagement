@@ -45,25 +45,25 @@ const Services = () => {
             <h1>
               <AiOutlineUsergroupAdd />
             </h1>
-            <h3>1000+</h3>
+            <h3>20000+</h3>
             <p></p>
-            <h4>Companies</h4>
-          </div>
-          <div className="icons">
-            <h1>
-              <FaUserGraduate />
-            </h1>
-            <h3>1000+</h3>
-            <p></p>
-            <h4>Companies</h4>
+            <h4>Students</h4>
           </div>
           <div className="icons">
             <h1>
               <AiFillBank />
             </h1>
-            <h3>1000+</h3>
+            <h3>18 Years</h3>
             <p></p>
-            <h4>Companies</h4>
+            <h4>Experience</h4>
+          </div>
+          <div className="icons">
+            <h1>
+              <FaUserGraduate />
+            </h1>
+            <h3>20000+</h3>
+            <p></p>
+            <h4>Scholarships Given</h4>
           </div>
           <div className="icons">
             <h1>
@@ -77,9 +77,9 @@ const Services = () => {
             <h1>
               <FaGlobe />
             </h1>
-            <h3>1000+</h3>
+            <h3>14 Tie Ups</h3>
             <p></p>
-            <h4>Companies</h4>
+            <h4>International</h4>
           </div>
         </div>
       </div>
