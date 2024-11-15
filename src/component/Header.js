@@ -1,12 +1,10 @@
 import React, { useState } from "react";
 import { FaAlignRight } from "react-icons/fa";
 const nav = [
-  { id: 1, name: "About" },
-  { id: 2, name: "Admissions" },
-  { id: 3, name: "Career" },
-  { id: 4, name: "Placements" },
-  { id: 5, name: "Account" },
-  { id: 6, name: "Contact" },
+  { id: 1, name: "Home" },
+  { id: 2, name: "About" },
+  { id: 4, name: "Placement" },
+  { id: 5, name: "Contact" },
 ];
 
 function Header() {
@@ -52,7 +50,7 @@ function Header() {
       <div className="contant">
         <div className="left">
           <h1>
-            {state.heading} <span>Admission 2023</span>
+            {state.heading} <span>Admission 2025</span>
           </h1>
           <p>{state.paragraph}</p>
           <button>React More</button>

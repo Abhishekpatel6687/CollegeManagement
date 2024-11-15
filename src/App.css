@@ -32,16 +32,16 @@ body{
   width: 16.6vw;
 }
 .nav h4{
- font-size:1.8vw;
+ font-size:1.6vw;
  font-weight: 400;
  cursor: pointer;
  /* transition: all 0.5s; */
 }
 .nav h4:hover{
-  color: #a642db;
+  color: #a642db; 
 }
 .nav button{
-  height: 3vw;
+  height: 2.6vw;
   width: 6vw;
 font-size: 1.4vw;
 /* padding: 0.7vw 1.4vw; */
@@ -54,7 +54,7 @@ cursor: pointer;
 transition: all 0.5s;
 }
 .nav button:hover{
-  background-color:#37474f;
+  background-color:#1e137e;
 }
 
 .nav i{
@@ -95,19 +95,20 @@ font-size: 1.8vw;
 }
 .contant button{
 font-size: 1.6vw;
-height: 4.4vw;
-width: 12vw;
+height: 3.6vw;
+width: 10vw;
 /* padding: 1.1vw 2.1vw; */
-background-color: #37474F;
+background-color: #805695;
 color: white;
 border: none;
 border-radius: 5px;
 font-weight: 600;
+  cursor: pointer;
 transition: ease-in-out 0.5s;
 }
 .contant button:hover{
-  background-color: #9e6bb8;
-  color: black;
+  background-color: #1e137e;
+  /* color: black; */
 }
 .right img{
   margin-top: 8vw;
@@ -286,8 +287,8 @@ padding: 1vw 0;
   padding:2vw 4vw;
 }
 .logo img{
-  height: 8.8vw;
-  width: 30vw;
+  height: 8.6vw;
+  width: 28vw;
 }
 .courses ul{
  display: flex;
@@ -314,7 +315,7 @@ padding: 1vw 0;
 .courses ul li:hover{
   color: darkblue;
   transform: scale(1.2);
-  background-color: red;
+  background-color: rgb(255, 255, 255);
 }
 .section_2{
   display: flex;
