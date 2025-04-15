@@ -1,10 +1,10 @@
 import React from 'react';
 
 import './App.css';
-import Header from './component/Header';
-import Services from './component/Services';
-import Compus from './component/Compus';
-import Footer from './component/Footer';
+import Header from './components/Header';
+import Services from './components/Services';
+import Compus from './components/Compus';
+import Footer from './components/Footer';
 
 function App() {
   return (
