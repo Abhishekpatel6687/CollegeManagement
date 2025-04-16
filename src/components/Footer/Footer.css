@@ -55,6 +55,7 @@
     .last{
       text-align: center;
       font-size: 1.2vw;
+      padding-bottom: 10px;
       color: rgb(37, 37, 37);
 
     }
@@ -111,12 +112,11 @@
       .courses ul li:hover{
         color: darkblue;
         transform: scale(1.2);
-        background-color: red;
+        background-color: rgb(209, 205, 205);
     }
     .last{
       text-align: center;
       font-size: 12px;
-      padding-bottom: 4px;
     }
 
     }
