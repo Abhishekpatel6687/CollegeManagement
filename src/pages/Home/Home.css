@@ -110,8 +110,8 @@
       color: rgb(86, 86, 86);
     }
     .contant button{
-      height: 6.8vw;
-      width: 24vw;
+      height: 7.2vw;
+      width: 26vw;
     font-size: 3.2vw;
     background-color: #37474F;
     color: white;
@@ -129,7 +129,7 @@
     .right img{
     margin-top: 8vw;
     margin-left: 0;
-  height: 32vh;
-  width: 90%;
+  height: 28vh;
+  width: 88%;
     }
   }

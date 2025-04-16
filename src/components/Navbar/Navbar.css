@@ -63,7 +63,7 @@
       padding: 0 3vw ;
     }
     .nav img{
-      height: 44px;
+      height: 48.8px;
       width: 126px;
     }
     .nav h4{
@@ -71,14 +71,15 @@
       display: none;
     }
     .nav button{
-     height: 6vw;
-     width: 16vw;
-     font-size: 2.6vw;
+     height: 6.4vw;
+     width: 18vw;
+     font-size: 2.8vw;
     
     }
     .nav i{
     display: block;
-    font-size: 4vw;
+    font-size: 4.8vw;
+    margin-top: 4.8px;
     
     }
     .icon{
