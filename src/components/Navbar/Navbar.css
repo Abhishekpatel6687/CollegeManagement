@@ -1,0 +1,113 @@
+.nav{
+    height: 80px;
+    border-bottom: 2px solid #dadada;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px ;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(200, 177, 211, 0.4);
+    backdrop-filter: blur(8px);
+    z-index: 999;
+  }
+  .nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 1.8vw;
+  }
+  .nav img{
+    height: 4.8vw;
+    width: 14vw;
+  }
+  .nav h4{
+   font-size:1.2vw;
+   font-weight: 400;
+   cursor: pointer;
+   /* transition: all 0.5s; */
+  }
+  .nav h4:hover{
+    color: #a642db; 
+  }
+  .nav button{
+    height: 2.2vw;
+    width: 6vw;
+  font-size: 1vw;
+  /* padding: 0.7vw 1.4vw; */
+  background-color: #805695;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  }
+  .nav button:hover{
+    background-color:#1e137e;
+  }
+  
+  .nav i{
+  font-size: 1.8vw;
+    font-weight: 800;
+    display: none;
+  }
+
+  @media (max-width: 600px) {
+
+    .nav{
+      height:16vw;
+      border-bottom: 2px solid #dadada;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 3vw ;
+    }
+    .nav img{
+      height: 44px;
+      width: 126px;
+    }
+    .nav h4{
+      font-size: 4vw;
+      display: none;
+    }
+    .nav button{
+     height: 6vw;
+     width: 16vw;
+     font-size: 2.6vw;
+    
+    }
+    .nav i{
+    display: block;
+    font-size: 4vw;
+    
+    }
+    .icon{
+      position: relative;
+      
+    }
+    .inerIcon div:hover {
+     cursor: pointer;
+     background-color: rgba(3, 0, 0, 0.308);
+    border-radius: 5px;
+    color:white;
+    }
+    .inerIcon {
+     height: 46vw;
+     width: 44vw;
+     color: rgb(235, 234, 241);
+     margin: 4.6vw 22vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     position: absolute;
+     background-color: #7f5594ec;
+     border: 1px solid grey;
+     text-align:justify ;
+     right: 2px;
+     padding: 10px 20px;
+     border-radius: 6px;
+     font-size: 5vw;
+     font-weight: 500;
+    }
+  }

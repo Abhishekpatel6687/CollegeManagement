@@ -1,0 +1,133 @@
+.compus {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg,#b0c6c9, #e7e5eb ); 
+  padding: 2vw 0;
+}
+
+
+  .compus-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(119, 227, 119); */
+    padding: 2vw;
+  }
+  .compus-data h1{
+  color:#013269;
+   font-size: 2.4vw; 
+   text-decoration:underline;
+   }
+   .compus-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+  .list-item{
+    height: 38vw;
+    width: 28vw;
+    /* height: 450px; */
+    /* width: 346px;  */
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(6px);
+    background-color: #BECBDB;
+    border: 1px solid rgb(115, 115, 196);
+    border-radius: 10px;
+    gap:1.2vw;
+    
+  }
+  .list-item h1{
+    color: #3d035d;
+    font-size: 1.4vw;
+    margin-top: 1vw;
+  }
+  
+  .list-item p{
+    margin: 0.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1.1vw;
+    color: rgb(67, 66, 66);
+    word-spacing: 2.6px;
+    line-height: 1.4vw;
+  }
+  
+  .list-item img{
+    height: 38vh;
+    width: 27.86vw;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 600px) {
+
+    .compus{
+      height: 100%;
+      width: 100%;
+      background: #d7dee4;
+      padding: 2vw 0;
+    }
+    .compus-data{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* background-color: rgb(119, 227, 119); */
+      padding: 2vw;
+    }
+    .compus-data h1{
+    color:#013269;
+     font-size: 5.4vw; 
+     }
+     .compus-list{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+     }
+    .list-item{
+      height: 72vw;
+      width: 56vw;
+      /* height: 450px; */
+      /* width: 346px;  */
+      margin: 10px;
+      gap:4px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      border: 1px solid blueviolet;
+      background-color: #becbdb;
+    }
+    .list-item h1{
+      color: #3d035d;
+      font-size: 3.8vw;
+      margin-top: 1vw;
+      padding-bottom: 0;
+
+      
+    }
+    
+    .list-item p{
+      margin: 0.8vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      font-size: 2.5vw;
+      color: rgb(67, 66, 66);
+      word-spacing: 2px;
+      line-height:13px;
+      margin-top: 0;
+    }
+    
+    .list-item img{
+      height:36vw;
+      width: 55.6vw;
+    }
+  }

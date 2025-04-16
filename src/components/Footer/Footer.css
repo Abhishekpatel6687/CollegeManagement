@@ -1,0 +1,122 @@
+.footer{
+    height: 60%;
+    width: 100%;
+    background: linear-gradient(135deg,#ccbed4, #6b5268); 
+    padding: 1vw 0;
+    }
+    .section_1{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding:2vw 4vw;
+    }
+    .logo img{
+      height: 4vw;
+      width: 16vw;
+    }
+    .courses ul{
+     display: flex;
+     gap: 1.2vw;
+     list-style: none;
+     padding: 0 2vw 0 0 ;
+    }
+    .courses ul li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2vw;
+      height: 2.6vw;
+      width: 2.6vw;
+      border: 2px solid #0a0420;
+      border-radius: 100%;
+      background-color:rgb(23, 5, 104);
+      cursor: pointer;
+      transition: all ease-in-out 0.5s;
+      color: white;
+      
+    }
+    .courses ul li:hover{
+      color: darkblue;
+      transform: scale(1.2);
+      background-color: rgb(224, 220, 220);
+    }
+    .section_2{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 0 .2vw 4.8vw;
+      color: rgb(255, 255, 255);
+    }
+    .icon-list ul{
+      list-style: none;
+      font-size: 1.2vw;
+      line-height: 2.4vw;
+    }
+    .last{
+      text-align: center;
+      font-size: 1.2vw;
+      color: rgb(37, 37, 37);
+
+    }
+
+    @media (max-width: 600px) {
+
+      .footer{
+      height: 100%;
+      width: 100%;
+      background-color:#5e6773;
+      }
+      .section_1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+      }
+      .logo img{
+        height: 12vw;
+        width: 40vw;
+      }
+      
+      .section_2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        color: rgb(255, 255, 255);
+      
+        padding: 0;
+      }
+      .icon-list ul{
+        list-style: none;
+        font-size: 3vw;
+        line-height: 4.2vw;
+        margin-bottom: 2vw;
+      
+      }
+      .courses ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3.2vw;
+        height: 6vw;
+        width: 6vw;
+        border: 2px solid #0a0420;
+        border-radius: 100%;
+        background-color:rgb(23, 5, 104);
+        cursor: pointer;
+        transition: all ease-in-out 0.5s;
+        color: white;
+        
+      }
+      .courses ul li:hover{
+        color: darkblue;
+        transform: scale(1.2);
+        background-color: red;
+    }
+    .last{
+      text-align: center;
+      font-size: 12px;
+      padding-bottom: 4px;
+    }
+
+    }

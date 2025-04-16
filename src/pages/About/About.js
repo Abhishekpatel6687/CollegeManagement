@@ -1,7 +1,10 @@
 import React from "react";
 import { AiFillBank, AiOutlineUsergroupAdd } from "react-icons/ai";
 import { FaUserGraduate, FaGlobe, FaBriefcase } from "react-icons/fa";
-const Services = () => {
+import "./About.css";
+import bgImage from "../../assets/image/2018-02-07-3.jpg";
+
+const About = () => {
   return (
     <div className="container">
       <div className="navbar">
@@ -12,7 +15,10 @@ const Services = () => {
       <div className="navbar-part2">
         <div className="founder">
           <div className="founder-list">
-            <img src="/image/babuji-120x120.jpg" alt="" />
+            <img
+              src="/image/babuji-120x120.jpg"
+              alt="Late Babu Banarasi Das Ji"
+            />
             <ul className="list">
               <li>
                 <span>Late Babu Banarasi Das Ji</span>
@@ -23,9 +29,11 @@ const Services = () => {
               <li> Govt. of Uttar Pradesh</li>
             </ul>
           </div>
-          {/* <p>To provide an open opportunity to the young generation for evolving their core competencies and to build their career as world class professionals with broad based foundation, in-depth knowledge & versatile personality to meet the challenges of Global Economy.</p> */}
           <div className="founder-list">
-            <img src="/image/dr_akhilesh_das_gupta-120x120.jpg" alt="" />
+            <img
+              src="/image/dr_akhilesh_das_gupta-120x120.jpg"
+              alt="Dr. Akhilesh Das Gupta"
+            />
             <ul className="list">
               <li>
                 <span>Late Dr. Akhilesh Das Gupta</span>
@@ -36,11 +44,13 @@ const Services = () => {
               <li>Hon’ble Founder Chairman, BBD Group</li>
             </ul>
           </div>
-          {/* <p>We not only make technocrats at BBD, we churn out citizens of the world, perfect in all respect, be it leadership, competence, confidence, communication, moral or knowledge.</p> */}
         </div>
       </div>
       <div className="services">
-        <div className="services-list">
+        <div
+          style={{ backgroundImage: `url(${bgImage})` }}
+          className="services-list"
+        >
           <div className="icons">
             <h1>
               <AiOutlineUsergroupAdd />
@@ -87,4 +97,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default About;

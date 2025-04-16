@@ -1,0 +1,135 @@
+.main{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .contant{
+    width: 100%;
+    padding-bottom: 5.8vw;
+    display: flex;
+    background-color:rgb(235, 231, 238);
+    padding-top: 60px;
+    justify-content: space-around;
+  }
+  .left{
+    height: 100%;
+    width: 40%;
+    /* background: blue; */
+    padding-top: 60px;
+    margin: 80px 4vw 0 4vw;
+  }
+  .right{
+    height: 100%;
+    width: 50%;
+    /* background: yellow; */
+  }
+  .left h1{
+    font-size: 2vw;
+    line-height: 3vw;
+    /* background:red; */
+    line-height: 36px;
+    width: 80%;
+  }
+  .left h1 span{
+    font-size: 2.4vw;
+    color: #ce73ff;
+  }
+  .left p{
+    font-weight: 600;
+    width: 80%;
+    font-size: 1.12vw;
+    color: rgb(67, 66, 66);
+    word-spacing: 2.6px;
+    line-height: 24px;
+    margin-top: 1.5vw;
+    margin-bottom: 2vw;
+  }
+  .contant button{
+  font-size: 1vw;
+  height: 2.6vw;
+  width: 8.8vw;
+  /* padding: 1.1vw 2.1vw; */
+  background-color: #805695;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+    cursor: pointer;
+  transition: ease-in-out 0.5s;
+  }
+  .contant button:hover{
+    background-color: #1e137e;
+    /* color: black; */
+  }
+  .right img{
+    margin-top: 8vw;
+    margin-left: 4vw;
+  height: 44vh;
+  width: 80%;
+  }
+
+
+  @media (max-width: 600px) {
+
+    .contant{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color:rgb(235, 231, 238);
+    }
+    .left{
+      height: 100%;
+      margin-top:0vw;
+      padding: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .left h1{
+      font-size: 4vw;
+      line-height: 4.6vw;
+      padding:3vw 2vw;
+    }
+    .left h1 span{
+      font-size: 4.6vw;
+      color: #D590F9;
+      
+    }
+    .left p{
+      font-size: 3.5vw;
+      line-height: 4vw;
+      font-weight: 600;
+      width: 80%;
+      margin-top: 3vw;
+      margin-bottom: 5vw;
+      color: rgb(86, 86, 86);
+    }
+    .contant button{
+      height: 6.8vw;
+      width: 24vw;
+    font-size: 3.2vw;
+    background-color: #37474F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    }
+    .right{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .right img{
+    margin-top: 8vw;
+    margin-left: 0;
+  height: 32vh;
+  width: 90%;
+    }
+  }

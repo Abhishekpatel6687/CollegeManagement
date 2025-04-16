@@ -1,18 +1,18 @@
-import React from 'react';
+import React from "react";
 
-import './App.css';
-import Header from './components/Header';
-import Services from './components/Services';
-import Compus from './components/Compus';
-import Footer from './components/Footer';
+import "./App.css";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Services from "./components/Services/Services";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
-    <Header/>
-    <Services/>
-    <Compus/>
-    <Footer/>
+      <Home />
+      <About />
+      <Services />
+      <Footer />
     </div>
   );
 }
