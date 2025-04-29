@@ -13,38 +13,36 @@ const About = () => {
         <p></p>
       </div>
       <div className="navbar-part2">
-        <div className="founder">
-          <div className="founder-list">
-            <img
-              src="/image/babuji-120x120.jpg"
-              alt="Late Babu Banarasi Das Ji"
-            />
-            <ul className="list">
-              <li>
-                <span>Late Babu Banarasi Das Ji</span>
-              </li>
-              <li> (1912 – 1985)</li>
-              <li> Genesis</li>
-              <li> Ex Chief Minister</li>
-              <li> Govt. of Uttar Pradesh</li>
-            </ul>
-          </div>
-          <div className="founder-list">
-            <img
-              src="/image/dr_akhilesh_das_gupta-120x120.jpg"
-              alt="Dr. Akhilesh Das Gupta"
-            />
-            <ul className="list">
-              <li>
-                <span>Late Dr. Akhilesh Das Gupta</span>
-              </li>
-              <li>Founders</li>
-              <li>MBA, LLB, Ph.D.</li>
-              <li>Ex-Member of Parliament (Rajya Sabha)</li>
-              <li>Hon’ble Founder Chairman, BBD Group</li>
-            </ul>
-          </div>
-        </div>
+      <div className="founder">
+  <div className="founder-list">
+    <img
+      src="/image/babuji-120x120.jpg"
+      alt="Late Babu Banarasi Das Ji"
+    />
+    <ul className="list">
+      <li><span>Late Babu Banarasi Das Ji</span></li>
+      <li>(1912 – 1985)</li>
+      <li>Genesis</li>
+      <li>Ex Chief Minister</li>
+      <li>Govt. of Uttar Pradesh</li>
+    </ul>
+  </div>
+
+  <div className="founder-list1">
+    <img
+      src="/image/dr_akhilesh_das_gupta-120x120.jpg"
+      alt="Dr. Akhilesh Das Gupta"
+    />
+    <ul className="list">
+      <li><span>Late Dr. Akhilesh Das Gupta</span></li>
+      <li>Founders</li>
+      <li>MBA, LLB, Ph.D.</li>
+      <li>Ex-Member of Parliament (Rajya Sabha)</li>
+      <li>Hon’ble Founder Chairman, BBD Group</li>
+    </ul>
+  </div>
+</div>
+
       </div>
       <div className="services">
         <div

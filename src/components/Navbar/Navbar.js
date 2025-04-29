@@ -1,44 +1,50 @@
 import React, { useState } from "react";
-import "./Navbar.css";
+import { Link } from "react-router-dom";
 import { FaAlignRight } from "react-icons/fa";
+import "./Navbar.css";
 
 const Navbar = () => {
-  const nav = [
-    { id: 1, name: "Home" },
-    { id: 2, name: "About" },
-    { id: 4, name: "Placement" },
-    { id: 5, name: "Contact" },
-  ];
   const [isShowMenus, setIsShowMenus] = useState(false);
 
-  function update() {
+  const nav = [
+    { id: 1, name: "Home", link: "/" },
+    { id: 2, name: "About", link: "/about" },
+    { id: 3, name: "Courses", link: "/courses" },
+    { id: 4, name: "Placements", link: "/placements" },
+    { id: 5, name: "Services", link: "/services" },
+    { id: 6, name: "Contact", link: "/contact" },
+  ];
+
+  function toggleMenu() {
     setIsShowMenus(!isShowMenus);
   }
 
   return (
-    <div>
-      <div className="nav">
-        <img src="/image/bbd-logo-3.png" alt="" />
-        <div className="nav-part2">
-          {nav.map((nav) => (
-            <h4>{nav.name}</h4>
-          ))}
+    <div className="nav">
+      <img src="/image/bbd-logo-3.png" alt="Logo" />
+      <div className="nav-part2">
+        {nav.map((navItem) => (
+          <h4 key={navItem.id}>
+            <Link className="linkItems"  to={navItem.link}>{navItem.name}</Link>
+          </h4>
+        ))}
 
-          <button>Sign In</button>
+        <button>Sign In</button>
 
-          <div className="icon">
-            <i className="iconImg" onClick={() => update()}>
-              <FaAlignRight />
-            </i>
+        <div className="icon">
+          <i className="iconImg" onClick={toggleMenu}>
+            <FaAlignRight />
+          </i>
 
-            {isShowMenus && (
-              <div className="inerIcon">
-                {nav.map((item, index) => {
-                  return <div key={item.id}> {item.name}</div>;
-                })}
-              </div>
-            )}
-          </div>
+          {isShowMenus && (
+            <div className="inerIcon">
+              {nav.map((item) => (
+                <div key={item.id}>
+                  <Link className="linkItems" to={item.link}>{item.name}</Link>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </div>
