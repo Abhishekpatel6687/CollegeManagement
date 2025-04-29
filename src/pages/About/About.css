@@ -1,187 +1,211 @@
-.container{
-    height: 100%;
-    width: 100%;
-    /* background-color: green; */
-  
-  }
-   .navbar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2vw;
-    font-size: 1.4vw;
-    color: #3d035d;
-   }
-   .navbar p{
-    height: 0.4vh;
-    width:6vw;
-    background: red;
-    margin: 1vw;
-    margin-top: 1vw;
-   }
-  
-  .founder{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: red; */
-  
-   }
-  .founder-list{
-      height: 80%;
-      width:40vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3vw;
-  /* background-color: green;  */
-  }
-  .founder-list img{
-    height: 15vw;
-    width: 15vw;
-  
-  }
-  
-  
-  .list{
-    font-size: 1.2vw;
-    line-height: 2.2vw;
-    margin: 0 0 0 2.5vw;
-  
-  }
-  .list span{
-    color:  #3d035d;
-    font-weight: bold;
-  }
-  
-  .services{
-    /* height: 40vh; */
-    width:auto;
-    margin-top: 2vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .services-list{
-    height: 50vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: white;
-  }
-  .icons{
-    font-size: 1.4vw;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-  /* background-color: #805695; */
-  }
-  .icons h1{
-  font-size: 4.8vw;
+.container {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 84px;
+  font-size: 20px;
+  color: #3d035d;
+  margin-bottom: 56px;
+}
+
+.navbar p {
+  height: 4px;
+  width: 60px;
+  background: red;
+  margin: 10px;
+}
+
+.founder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.founder-list,
+.founder-list1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 50%;
+}
+
+.founder-list img,
+.founder-list1 img {
+  width: 188px;
+  height: 188px;
+  object-fit: cover;
+}
+
+.list {
+  font-size: 18px;
+  line-height: 32px;
+  margin-left: 30px;
+}
+
+.list span {
+  color: #3d035d;
+  font-weight: bold;
+}
+
+.services {
+  margin-top: 46px;
+  display: flex;
+  justify-content: center;
+}
+
+.services-list {
+  height: 348px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: white;
-  }
-  .icons p{
-    height: 0.5vh;
-    width: 2vw;
-    margin: 1vw;
-    background-color: white;
-  }
-  .icons h3{
-    font-weight: 500;
-  }
-  .icons h4{
+}
+
+.icons {
+  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons h1 {
+  font-size: 48px;
+  color: white;
+}
+
+.icons p {
+  height: 4px;
+  width: 30px;
+  margin: 10px;
+  background-color: white;
+}
+
+.icons h3 {
+  font-weight: 500;
+}
+
+.icons h4 {
   font-weight: 300;
+}
+
+@media (max-width: 1350px) {
+  .list {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .icons {
+    font-size: 22px;
+  }
+  .icons h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navbar{
+    margin-bottom: 34px;
+  }
+  .founder {
+    flex-direction: column;
   }
 
-
-  @media (max-width: 600px) {
-
-    .container{
-      height: 100%;
-      width: 100%;
-    }
-     .navbar{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 5vw;
-      font-size: 3vw;
-      color: #3d035d;
-     }
-     .navbar p{
-      height: 0.5vw;
-      width: 10vw;
-      background: red;
-      margin: 2vw;
-     }
-    .founder{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      margin-top: 4vw;
-      /* background-color: red; */
-      
-     }
-    .founder-list{
-      height: 100%;
-      width:100%;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      padding: 4vw;
-    }
-    .founder-list img{
-      height: 38vw;
-      width: 34vw;
-    }
-    .list{
-      font-size: 3.2vw;
-      line-height: 5.2vw;
-      list-style: none;
-    
-    }
-    .list span{
-      color:  #3d035d;
-      font-weight: bold;
-    }
-    
-    .services{
-      /* height: 40vh; */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .services-list{
-      height: 50vw;
-      width: 100vw;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      color: white;
-    }
-    .icons{
-      font-size: 3vw;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-direction: column;
-    /* background-color: #805695; */
-    }
-    .icons h1{
-    font-size: 6.4vw;
-    color: white;
-    }
-    .icons p{
-      height: 0.4vw;
-      width: 3.6vw;
-      margin: 1.4vw;
-      background-color: white;
-    }
-    .icons h4{
-    font-weight: 300;
-    font-size: 3vw;
-    }
+  .founder-list {
+    width: 100%;
+    padding: 20px;
+    margin-right: 80px;
   }
+
+  .founder-list1 {
+    width: 100%;
+    padding: 20px;
+  }
+  .founder-list img,
+  .founder-list1 img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .icons {
+    font-size: 18px;
+  }
+
+  .list {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+
+  .services-list {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 56px 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    font-size: 18px;
+    padding-top: 66px;
+      margin-bottom: 20px;
+  }
+
+  .icons h1 {
+    font-size: 36px;
+  }
+
+  .icons {
+    font-size: 16px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .navbar {
+    font-size: 12px;
+    padding-top: 64px;
+      margin-bottom: 12px;
+  }
+
+  .navbar p {
+    width: 28px;
+    height: 3px;
+  }
+  .list {
+    font-size: 14px;
+    line-height:26px;
+  }
+  .founder-list {
+    flex-direction: column;
+    margin-right: 0px;
+  }
+
+  .founder-list1 {
+    flex-direction: column;
+  }
+  .list {
+    margin-left: 0;
+    margin-top: 10px;
+    text-align: start;
+  }
+
+  .icons {
+    font-size: 12px;
+    margin: 10px;
+  }
+
+  .icons h1 {
+    font-size: 32px;
+  }
+
+  .icons h4 {
+    font-size: 14px;
+  }
+}

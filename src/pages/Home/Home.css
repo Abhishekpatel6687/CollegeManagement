@@ -1,135 +1,278 @@
-.main{
-    height: 100%;
-    width: 100%;
-  }
+.main {
+  width: 100%;
+  background-color: #fff;
+}
+
+.contant {
+  width: 100%;
+  padding: 200px 60px 100px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../../assets/banner/home-back.jpg');
+  background-position: center;
   
-  .contant{
-    width: 100%;
-    padding-bottom: 5.8vw;
-    display: flex;
-    background-color:rgb(235, 231, 238);
-    padding-top: 60px;
-    justify-content: space-around;
-  }
-  .left{
-    height: 100%;
-    width: 40%;
-    /* background: blue; */
-    padding-top: 60px;
-    margin: 80px 4vw 0 4vw;
-  }
-  .right{
-    height: 100%;
-    width: 50%;
-    /* background: yellow; */
-  }
-  .left h1{
-    font-size: 2vw;
-    line-height: 3vw;
-    /* background:red; */
-    line-height: 36px;
-    width: 80%;
-  }
-  .left h1 span{
-    font-size: 2.4vw;
-    color: #ce73ff;
-  }
-  .left p{
-    font-weight: 600;
-    width: 80%;
-    font-size: 1.12vw;
-    color: rgb(67, 66, 66);
-    word-spacing: 2.6px;
-    line-height: 24px;
-    margin-top: 1.5vw;
-    margin-bottom: 2vw;
-  }
-  .contant button{
-  font-size: 1vw;
-  height: 2.6vw;
-  width: 8.8vw;
-  /* padding: 1.1vw 2.1vw; */
+}
+
+.contentImage {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  gap: 40px;
+}
+
+.left,
+.right {
+  flex: 1 1 45%;
+  box-sizing: border-box;
+}
+
+.left h1 {
+  font-size: 28px;
+  line-height: 40px;
+  width: 80%;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.left h1 span {
+  display: block;
+  font-size: 32px;
+  color: #ce73ff;
+  margin-top: 10px;
+}
+
+.left p {
+  font-size: 16px;
+  font-weight: 600;
+  width: 80%;
+  color: rgb(219, 215, 215);
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.contant button {
+  font-size: 16px;
+  height: 40px;
+  width: 160px;
   background-color: #805695;
   color: white;
   border: none;
   border-radius: 10px;
   font-weight: 600;
-    cursor: pointer;
-  transition: ease-in-out 0.5s;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contant button:hover {
+  background-color: #1e137e;
+}
+
+.right img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.recruiters {
+  width: 100%;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.recruiters h1 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.sliderWrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.recruitersImage {
+  display: flex;
+  gap: 20px;
+  animation: scrollSlider 30s linear infinite;
+  width: max-content;
+}
+
+.sliderWrapper:hover .recruitersImage {
+  animation-play-state: paused;
+}
+
+.imageBox {
+  flex: 0 0 auto;
+  width: 150px;
+  height: 100px;
+}
+
+.imageBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@keyframes scrollSlider {
+  0% {
+    transform: translateX(0%);
   }
-  .contant button:hover{
-    background-color: #1e137e;
-    /* color: black; */
+  100% {
+    transform: translateX(-50%);
   }
-  .right img{
-    margin-top: 8vw;
-    margin-left: 4vw;
-  height: 44vh;
-  width: 80%;
+}
+
+@media (max-width: 1350px) {
+  
+  .left h1 {
+    width: 100%;
+    font-size: 24px;
+    line-height: 30px;
   }
 
-
-  @media (max-width: 600px) {
-
-    .contant{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      background-color:rgb(235, 231, 238);
-    }
-    .left{
-      height: 100%;
-      margin-top:0vw;
-      padding: 0;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
-    
-    .left h1{
-      font-size: 4vw;
-      line-height: 4.6vw;
-      padding:3vw 2vw;
-    }
-    .left h1 span{
-      font-size: 4.6vw;
-      color: #D590F9;
-      
-    }
-    .left p{
-      font-size: 3.5vw;
-      line-height: 4vw;
-      font-weight: 600;
-      width: 80%;
-      margin-top: 3vw;
-      margin-bottom: 5vw;
-      color: rgb(86, 86, 86);
-    }
-    .contant button{
-      height: 7.2vw;
-      width: 26vw;
-    font-size: 3.2vw;
-    background-color: #37474F;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-weight: 600;
-    }
-    .right{
-      height: 100%;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .right img{
-    margin-top: 8vw;
-    margin-left: 0;
-  height: 28vh;
-  width: 88%;
-    }
+  .left p {
+    width: 100%;
   }
+
+  .left h1 span {
+    display: block;
+    font-size: 32px;
+    color: #ce73ff;
+    margin-top: 8px;
+  }
+
+  .right img {
+    height: 280px;
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .contant {
+    padding: 140px 60px 100px 60px;
+  }
+  
+  .left h1 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .left p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .right img {
+    height: 280px;
+  }
+
+  .imageBox {
+    width: 120px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .contant {
+    padding: 120px 40px 80px 40px;
+  }
+  .contentImage {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .left h1 {
+    font-size: 22px;
+    line-height:26px;
+  }
+
+  .left p {
+    font-size: 14px;
+    line-height:18px;
+  }
+
+  .left h1 span {
+    font-size: 26px;
+    margin-top: 4px;
+  }
+
+  .left h1,
+  .left p {
+    text-align: start;
+  }
+
+  .contant button {
+    font-size: 14px;
+    height:36px;
+    width: 140px;
+
+  }
+  .right img {
+    height: auto;
+  }
+
+  .recruiters h1 {
+    font-size: 24px;
+  }
+
+  .imageBox {
+    width: 100px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .contant {
+    padding: 100px 28px 80px 28px;
+  }
+  .left h1 {
+    font-size: 20px;
+      line-height:22px;
+  }
+
+  .left h1 span {
+    font-size: 22px;
+
+  }
+
+  .left p {
+    font-size: 13px;
+  }
+
+  .contant button {
+    font-size: 13px;
+    height: 36px;
+    width: 140px;
+  }
+
+  .contant button {
+    font-size: 12.6px;
+    height:34px;
+    width: 128px;
+  }
+
+  .imageBox {
+    width: 80px;
+    height: 50px;
+  }
+
+.recruiters{
+  padding-top: 20px;
+}
+
+.recruiters h1 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  }
+}
