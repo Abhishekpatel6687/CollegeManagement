@@ -12,7 +12,6 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      {/* Social Media & Logo Section */}
       <div className="section_1">
         <div className="logo">
           <img src="/image/logo-removebg-preview.png" alt="logo_footer" />
@@ -29,7 +28,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Contact Info Section */}
       <div className="section_2">
         <div className="icon-list">
           <ul>
@@ -44,7 +42,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Copyright */}
       <div className="last">
         <p>© Copyright 2018. All Rights Reserved by BBD University.</p>
       </div>
