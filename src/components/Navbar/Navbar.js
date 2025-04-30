@@ -40,7 +40,7 @@ const Navbar = () => {
             <div className="inerIcon">
               {nav.map((item) => (
                 <div key={item.id}>
-                  <Link className="linkItems" to={item.link}>{item.name}</Link>
+                  <Link onClick={() => setIsShowMenus(false)} className="linkItems" to={item.link}>{item.name}</Link>
                 </div>
               ))}
             </div>
