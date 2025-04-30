@@ -5,6 +5,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [isShowMenus, setIsShowMenus] = useState(false);
+  const [active, setActive] = useState('Home')
 
   const nav = [
     { id: 1, name: "Home", link: "/" },
@@ -25,7 +26,7 @@ const Navbar = () => {
       <div className="nav-part2">
         {nav.map((navItem) => (
           <h4 key={navItem.id}>
-            <Link className="linkItems"  to={navItem.link}>{navItem.name}</Link>
+            <Link  onClick={() => setActive(navItem.name)}  style={{ color: active === navItem.name ? '#610593' : 'white' }} className="linkItems"  to={navItem.link}>{navItem.name}</Link>
           </h4>
         ))}
 

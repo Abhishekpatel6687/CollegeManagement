@@ -1,12 +1,7 @@
 import React from "react";
 import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaInstagram,
-  FaTelegram,
-  FaYoutube,
-  FaGlobeAfrica,
-  FaTwitter,
+  FaFacebookF, FaLinkedinIn, FaInstagram, FaTelegram,
+  FaYoutube, FaGlobeAfrica, FaTwitter
 } from "react-icons/fa";
 import { IoHome } from "react-icons/io5";
 import { HiOutlineBuildingOffice2 } from "react-icons/hi2";
@@ -23,55 +18,30 @@ const Footer = () => {
         </div>
         <div className="courses">
           <ul>
-            <li>
-              <FaLinkedinIn />
-            </li>
-            <li>
-              <FaInstagram />
-            </li>
-            <li>
-              <FaTwitter />
-            </li>
-            <li>
-              <FaFacebookF />
-            </li>
-            <li>
-              <FaTelegram />
-            </li>
-            <li>
-              <FaYoutube />
-            </li>
+            <li><FaLinkedinIn /></li>
+            <li><FaInstagram /></li>
+            <li><FaTwitter /></li>
+            <li><FaFacebookF /></li>
+            <li><FaTelegram /></li>
+            <li><FaYoutube /></li>
           </ul>
         </div>
       </div>
+
       <div className="section_2">
         <div className="icon-list">
           <ul>
-            <li>
-              <HiOutlineBuildingOffice2 /> Babu Banarasi Das University
-            </li>
-            <li>
-              <IoHome /> BBD City, Faizabad Road, Lucknow Uttar Pradesh - 226
-              028 India
-            </li>
-            <li>
-              <MdCall /> 0-(522)-6196300/301/302
-            </li>
-            <li>
-              <MdCall /> 0-(522)-6196315/16/17/18
-            </li>
-            <li>
-              <TfiPrinter /> 0-(522)-6196222
-            </li>
-            <li>
-              <MdOutlineMailOutline /> info@bbdu.org
-            </li>
-            <li>
-              <FaGlobeAfrica /> https://bbdu.ac.in
-            </li>
+            <li><HiOutlineBuildingOffice2 /> Babu Banarasi Das University</li>
+            <li><IoHome /> BBD City, Faizabad Road, Lucknow Uttar Pradesh - 226028 India</li>
+            <li><MdCall /> 0-(522)-6196300/301/302</li>
+            <li><MdCall /> 0-(522)-6196315/16/17/18</li>
+            <li><TfiPrinter /> 0-(522)-6196222</li>
+            <li><MdOutlineMailOutline /> info@bbdu.org</li>
+            <li><FaGlobeAfrica /> https://bbdu.ac.in</li>
           </ul>
         </div>
       </div>
+
       <div className="last">
         <p>© Copyright 2018. All Rights Reserved by BBD University.</p>
       </div>
